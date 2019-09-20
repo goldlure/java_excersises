@@ -1,6 +1,4 @@
-/*
- * First Java program to say Hello
- */
+
 public class test1 {   
    public static void main(String[] args) {
       {
@@ -32,11 +30,14 @@ public class test1 {
       // stackStr.Pop();
       // System.out.println(stackStr.Peek());
       }
+      
       int arr[] ={3,60,35,2,45,320,5};  
       Sort.bubbleSort(arr);
       System.out.println("Array After Bubble Sort");  
       for(int i=0; i < arr.length; i++){  
          System.out.print(arr[i] + " ");  
-      }  
+      }
+      SorterApp app = new SorterApp();
+      app.run();  
    }
 }
