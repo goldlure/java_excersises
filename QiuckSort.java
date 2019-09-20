@@ -1,4 +1,4 @@
-class BubbleSort extends Sorter{
+class QuickSort extends Sorter{
     @Override
     <T extends Comparable<T>> void sort(T[] values, String order){
         int length = values.length;

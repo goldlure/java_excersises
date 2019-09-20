@@ -18,10 +18,10 @@ class SorterApp {
         
     }
     private <T extends Comparable<T>> void sort(T[] values) {
-        Sortable sorter = new BubbleSort();
-        sorter.sortAscending(values);
+        BubbleSort bubbleSorter = new BubbleSort();
+        bubbleSorter.sortAscending(values);
         Utils.printArray(values);
-        sorter.sortDescending(values);
+        bubbleSorter.sortDescending(values);
         Utils.printArray(values);
     }
 }
