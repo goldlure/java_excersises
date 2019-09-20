@@ -1,4 +1,4 @@
-public class BubbleSort extends Sorter implements Sortable{
+class BubbleSort extends Sorter implements Sortable{
     @Override
     public <T extends Comparable<T>> void sortAscending(T[] values){
         sort01(values,0,1);
@@ -12,7 +12,7 @@ public class BubbleSort extends Sorter implements Sortable{
         int length = values.length;
         
         for(int i = 1; i < length; i++){
-            for (j = 0; j < length-i; j++){
+            for (int j = 0; j < length-i; j++){
                 if (values[j + first].compareTo(values[second]) > 0){
                     swap(values, j+first, j+second);
                 }

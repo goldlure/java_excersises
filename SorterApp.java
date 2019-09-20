@@ -1,4 +1,4 @@
-public class SorterApp {
+class SorterApp {
     protected void run() {
         sort(new Integer[] { 1, 2, 3, 4, 5 });
         sort(new Integer[] { 3, 1, 5, 4, 2 });

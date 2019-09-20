@@ -1,4 +1,4 @@
-public class Sort{
+class Sort{
     public static void bubbleSort(int[] arr){
         boolean swapped = true;
         int temp;
