@@ -30,11 +30,11 @@ public class test1 {
       // System.out.println(stackStr.Peek());
       }
       
-      int arr[] ={3,60,35,2,45,320,5};  
-      Sort.bubbleSort(arr); 
-      for(int i=0; i < arr.length; i++){  
-         System.out.print(arr[i] + " ");  
-      }
+      // int arr[] ={3,60,35,2,45,320,5};  
+      // Sort.bubbleSort(arr); 
+      // for(int i=0; i < arr.length; i++){  
+      //    System.out.print(arr[i] + " ");  
+      // }
       System.out.println();
       SorterApp app = new SorterApp();
       app.run();  
