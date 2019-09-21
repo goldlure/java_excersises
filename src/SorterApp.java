@@ -1,7 +1,7 @@
 class SorterApp {
     protected void run() {
         //sort(new Integer[] { 1, 2, 3, 4, 5 });
-        sortInt(new Integer[] { 7, 0, 4, 444, 67 });
+        //sortInt(new Integer[] { 7, 0, 4, 444, 67 });
         sort(new Integer[] { 5, 4, 3, 2, 1 });
 
         System.out.println();
@@ -19,23 +19,28 @@ class SorterApp {
 
         
     }
-    private void sortInt(Integer[] values){
-        MergeSort mergeSort = new MergeSort();
-        mergeSort.sortInt(values, "asc");
-        Utils.printArray(values);
-        mergeSort.sortInt(values, "desc");
-        Utils.printArray(values);
-    }
+    // private void sortInt(Integer[] values){
+    //     MergeSort mergeSort = new MergeSort();
+    //     mergeSort.sortInt(values, "asc");
+    //     Utils.printArray(values);
+    //     mergeSort.sortInt(values, "desc");
+    //     Utils.printArray(values);
+    // }
     private <T extends Comparable<T>> void sort(T[] values) {
         // BubbleSort bubbleSorter = new BubbleSort();
         // bubbleSorter.sortAscending(values);
         // Utils.printArray(values);
         // bubbleSorter.sortDescending(values);
         // Utils.printArray(values);
-        QuickSort quickSort = new QuickSort();
-        quickSort.sortAscending(values);
+        // QuickSort quickSort = new QuickSort();
+        // quickSort.sortAscending(values);
+        // Utils.printArray(values);
+        // quickSort.sortDescending(values);
+        // Utils.printArray(values);
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.sort(values, "asc");
         Utils.printArray(values);
-        quickSort.sortDescending(values);
+        mergeSort.sort(values, "desc");
         Utils.printArray(values);
     }
 }

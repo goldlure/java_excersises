@@ -1,5 +1,4 @@
 class QuickSort extends Sorter{
-    
     String order;
     @Override
     <T extends Comparable<T>> void sort(T[] values, String order){
