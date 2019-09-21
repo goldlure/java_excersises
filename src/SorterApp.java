@@ -1,7 +1,7 @@
 class SorterApp {
     protected void run() {
         //sort(new Integer[] { 1, 2, 3, 4, 5 });
-        sort(new Integer[] { 7, 0, 4, 444, 67 });
+        sortInt(new Integer[] { 7, 0, 4, 444, 67 });
         sort(new Integer[] { 5, 4, 3, 2, 1 });
 
         System.out.println();
@@ -15,7 +15,16 @@ class SorterApp {
         Student s3 = new Student(17, "s3", 55);
 
         sort(new Student[] {s1,s2,s3});
+
+
         
+    }
+    private void sortInt(Integer[] values){
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.sortInt(values, "asc");
+        Utils.printArray(values);
+        mergeSort.sortInt(values, "desc");
+        Utils.printArray(values);
     }
     private <T extends Comparable<T>> void sort(T[] values) {
         // BubbleSort bubbleSorter = new BubbleSort();
