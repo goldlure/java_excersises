@@ -38,5 +38,12 @@ public class test1 {
       System.out.println();
       SorterApp app = new SorterApp();
       app.run();  
+
+      RotateArray rotateArray = new RotateArray(14,85,42,36,98,1,3,8,4,58);
+      System.out.println(rotateArray.toString());
+      rotateArray.rotateRight(3);
+      System.out.println(rotateArray.toString());
+      rotateArray.rotateLeft(3);
+      System.out.println(rotateArray.toString());
    }
 }
