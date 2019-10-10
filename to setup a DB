@@ -1,0 +1,23 @@
+1. to setup a DB
+
+	npm run db:setup:pg 
+	npm run db:setup:mysql
+	npm run db:setup:sqlite
+
+2. run tests that match a filter
+
+	npm run test EX01 
+	npm run test:watch EX01
+
+3. run an exercise's tests and all tests from previous exercises
+
+	npm run test:ex 4
+	npm run test:ex:watch 4
+
+4. to run the project on http://localhost:3000
+	npm run watch
+
+5. run tests with a DB other than sqlite
+	DB_TYPE=pg npm run watch
+	DB_TYPE=mysql npm run watch
+	
