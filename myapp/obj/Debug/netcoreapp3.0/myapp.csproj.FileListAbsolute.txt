@@ -1,0 +1,11 @@
+c:\INNA\home_projects\myapp\bin\Debug\netcoreapp3.0\myapp.exe
+c:\INNA\home_projects\myapp\bin\Debug\netcoreapp3.0\myapp.deps.json
+c:\INNA\home_projects\myapp\bin\Debug\netcoreapp3.0\myapp.runtimeconfig.json
+c:\INNA\home_projects\myapp\bin\Debug\netcoreapp3.0\myapp.runtimeconfig.dev.json
+c:\INNA\home_projects\myapp\bin\Debug\netcoreapp3.0\myapp.dll
+c:\INNA\home_projects\myapp\bin\Debug\netcoreapp3.0\myapp.pdb
+c:\INNA\home_projects\myapp\obj\Debug\netcoreapp3.0\myapp.csprojAssemblyReference.cache
+c:\INNA\home_projects\myapp\obj\Debug\netcoreapp3.0\myapp.AssemblyInfoInputs.cache
+c:\INNA\home_projects\myapp\obj\Debug\netcoreapp3.0\myapp.AssemblyInfo.cs
+c:\INNA\home_projects\myapp\obj\Debug\netcoreapp3.0\myapp.dll
+c:\INNA\home_projects\myapp\obj\Debug\netcoreapp3.0\myapp.pdb
